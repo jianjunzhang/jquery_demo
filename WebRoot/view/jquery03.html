@@ -13,15 +13,22 @@
 		$(function(){
 			//alert($("a").text());
 			//alert($("a").html());
-			alert($("div").html());
-			alert($("div").text());
+			//alert($("div").html());
+			//alert($("div").text());
+			
+			$("#btn").click(function(){
+				var $search = $("input[name='search']").val();
+				alert($search);
+			});
+			
 		});
 	</script>
   </head>
   
   <body>
-  	<p>dasdasdasdas<a href="ewew">fsdfsdfas反对所发生的</a></p>
-  	<div><span>Hello</span></div>
+  	<p>p标签内容<a href="#">a标签内容</a></p>
+  	<div><span>Hello World</span></div>
+  	<input type="text" name="search">&nbsp;<input id="btn" type="button" value="查找">
   	
   </body>
 </html>

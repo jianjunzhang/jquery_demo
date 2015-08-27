@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>jquery02.html</title>
+    <title>jquery03.html</title>
 	
     <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
     <meta http-equiv="description" content="this is my page">
@@ -11,15 +11,17 @@
 	<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$("#btn").click(function(){
-				var $username = $("input[name='username']").val();
-				alert($username);
-			});
+			//alert($("a").text());
+			//alert($("a").html());
+			alert($("div").html());
+			alert($("div").text());
 		});
 	</script>
   </head>
   
   <body>
-    <input type="text" name="username"><input type="button" id="btn" value="查找">
+  	<p>dasdasdasdas<a href="ewew">fsdfsdfas反对所发生的</a></p>
+  	<div><span>Hello</span></div>
+  	
   </body>
 </html>
